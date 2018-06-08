@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b09abdb2-05f1-4903-a602-0d0ef5d85bbb">
+  <producedTypes>
+    <objectType typeId="98a249b7-3589-469c-8218-547db75a324e" valueTypeId="865f6acb-e6f9-4ddd-ba59-1cf8ac4412c2"/>
+    <refType typeId="e15b5976-b67a-40b7-99e7-d6c22f7ac229" valueTypeId="de028e41-4b76-4c58-bc6c-4a9db16bb785"/>
+    <selectionType typeId="a4d901b7-ea22-4ca9-88c9-e693dd6c3eae" valueTypeId="b0bc87ee-2ff2-4b99-a930-a2c61a72cf01"/>
+    <listType typeId="f60195be-bf1b-4450-b93b-ae3ce56cd7bb" valueTypeId="de6c6fc5-880d-4606-a1cd-d2e224528831"/>
+    <managerType typeId="7e5ccf9e-a647-4106-b796-455c252bc672" valueTypeId="6bd6e6b1-3987-4a9e-a77e-6ae2a65fce65"/>
+  </producedTypes>
+  <name>Аккаунты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккаунты и доступы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аккаунты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Аккаунты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e760ca74-ceac-4594-ad9c-eccc4699c027">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c60e4d2-4c89-4cd7-943e-38618d3a1e0c">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c91f3ee0-5125-47df-ad64-521e9bacc913">
+    <name>СсылкаНаСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на сервис</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2070ba02-d923-4ec5-b146-6b8208f788bb">
+    <name>ТипАккаунта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аккаунта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыАккаунтов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="216c4014-9dcb-4836-978e-3114200fea4b">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5fae81de-6fc5-44bb-ba22-717d4a46a1d2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

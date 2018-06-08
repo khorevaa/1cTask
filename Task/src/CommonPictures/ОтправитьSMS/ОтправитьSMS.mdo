@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb31443a-ffed-4cf8-bf5f-5df06b4dc2fb">
+  <name>ОтправитьSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить SMS</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

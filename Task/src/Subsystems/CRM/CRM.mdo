@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c292e1c-95a8-4ae9-bce3-6def227e4f64">
+  <name>CRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
+  </picture>
+  <content>CommonPicture.Подсистема_CRM</content>
+  <content>Document.Контакт</content>
+  <content>Catalog.ИсточникиЛидов</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.ИсточникиОбращения</content>
+  <content>Document.КоммерческоеПредложение</content>
+</mdclass:Subsystem>

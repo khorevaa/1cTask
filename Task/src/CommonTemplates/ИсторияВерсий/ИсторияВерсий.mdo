@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c29ad9ce-4633-4a5e-b80f-1970a0315432">
+  <name>ИсторияВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>История версий</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4f72e6a-cca8-4938-aea5-b92866c76f9b">
+  <producedTypes>
+    <objectType typeId="bb1fcff3-702c-40a6-b99d-b9526c2ba44d" valueTypeId="7d6fccfe-f6cb-4c49-9ba4-a8ce7bd25343"/>
+    <managerType typeId="183ccc53-d527-4a8c-9c1d-9ef9d8d364bd" valueTypeId="fe03012e-f32e-41e6-a4b0-98b17286d09f"/>
+  </producedTypes>
+  <name>Дрючилка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дрючилка</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Дрючилка.Form.Форма</defaultForm>
+  <forms uuid="7429a5aa-2407-4fa7-8414-72719a9ace1c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

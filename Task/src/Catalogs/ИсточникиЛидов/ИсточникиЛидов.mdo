@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed1d05fb-8b77-4d9e-90f3-ef95c8625938">
+  <producedTypes>
+    <objectType typeId="8a2182bf-d215-4fdb-8bb0-a77f6eb60b81" valueTypeId="048cff5b-5254-4dcf-b0ab-a8013e9149c8"/>
+    <refType typeId="994ba6e1-a684-45cf-bc3d-87de5a1396f0" valueTypeId="a657c904-7e86-4020-9fe4-2f9ffd996fd3"/>
+    <selectionType typeId="d5909761-07c2-4969-8d40-9f2a0bfba98a" valueTypeId="a03fd7e8-650a-4566-9d49-53fd0e718bf0"/>
+    <listType typeId="58fd33cd-9919-4f32-be08-300066aad2d3" valueTypeId="1edf0d5b-14df-4ab7-9e14-695ea90e6c41"/>
+    <managerType typeId="35643d60-a0ef-44c5-a300-02b64ceccf30" valueTypeId="3fe87cba-7044-4db0-99d2-f2d1bf61c103"/>
+  </producedTypes>
+  <name>ИсточникиЛидов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники лидов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиЛидов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиЛидов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="db6f0f7b-3360-4cf5-b59a-4edd390a1e69">
+      <name>ВебСайт</name>
+      <description>Веб-сайт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="44ecc6c4-2f6a-47be-a89b-de5e2344b421">
+      <name>Звонок</name>
+      <description>Звонок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="6e85edb7-43e3-446b-a791-50101207a1ca">
+      <name>ПоРекомендации</name>
+      <description>По рекомендации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="99941408-c877-450c-bc50-6f0a7a66fee4">
+      <name>Реклама</name>
+      <description>Реклама</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="33af5880-5e5c-4f7e-91ab-d048dbe1882b">
+      <name>СвойКонтакт</name>
+      <description>Свой контакт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2a6b539b-b88e-44ea-b1bf-cc3643343134">
+      <name>СуществующийКлиент</name>
+      <description>Существующий клиент</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="dac8e082-5b2b-4278-97e3-a21869e1b8c8">
+      <name>ЭлектроннаяПочта</name>
+      <description>Электронная почта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

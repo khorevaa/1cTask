@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60fa840f-03f2-4ab3-82b2-f69eedb80868">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка3</picture>
+  </picture>
+  <content>Catalog.Касса</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>AccumulationRegister.ДенежныеСредства</content>
+  <content>Document.РасходныйКассовыйОрдер</content>
+  <content>Document.ПриходныйКассовыйОрдер</content>
+  <content>Document.УстановкаЦен</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Report.ДвижениеДенег</content>
+  <content>Report.ЗадачиОплата</content>
+  <content>Document.ПеремещениеМеждуКассами</content>
+</mdclass:Subsystem>

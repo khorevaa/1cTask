@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3829f15d-8045-476c-a6ae-825050aa3150">
+  <producedTypes>
+    <objectType typeId="c5867b21-9a1d-4aa5-a9b9-7b2a8fe38fc7" valueTypeId="9dba7729-c756-4ffa-848e-b16d6210df71"/>
+    <refType typeId="a3f50916-7c78-4b0c-8419-a8b13b158f81" valueTypeId="d3befbe5-a5cb-4123-ad6a-546884a6db39"/>
+    <selectionType typeId="fe9004b7-1324-45f2-b972-18c12e876eba" valueTypeId="4a55b3cc-da78-4e96-aa20-2cf63a8400b0"/>
+    <listType typeId="62311eac-84dd-4962-b0dc-deebacb8abfc" valueTypeId="fcbbfcc3-7d0a-40ef-a696-675f26a2ceac"/>
+    <managerType typeId="35fcda1b-32be-42de-b9f5-e4de9fd43170" valueTypeId="dfdd7234-36e2-4530-8089-6da8a170b688"/>
+  </producedTypes>
+  <name>ПеремещениеМеждуКассами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение между кассами</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПеремещениеМеждуКассами.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДенежныеСредства</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="287c48e6-52ae-4778-97fb-2c147610591d">
+    <name>КассаИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Касса</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62669401-bda5-4b9f-940b-f87eeed770fa">
+    <name>КассаПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса приемник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Касса</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f20e976-b24b-4865-9c64-1c71afd7f29b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

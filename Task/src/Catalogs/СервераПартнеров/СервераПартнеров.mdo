@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0e8e958-a6c6-443a-9ce5-83e43686d5e4">
+  <producedTypes>
+    <objectType typeId="c7d6626f-0fcf-44c3-8435-656a3e149d99" valueTypeId="14d8f7c7-04f4-46f6-864e-5e7eefeb2078"/>
+    <refType typeId="61e675da-1351-42b3-a5e6-4958810b9f02" valueTypeId="a32265df-9241-4030-8b33-97b8605a9574"/>
+    <selectionType typeId="3b75ce6e-b146-4e61-a26e-0909c088a727" valueTypeId="2dd29b92-d0dc-4b17-890a-037d724d0414"/>
+    <listType typeId="62e8edfc-c06f-4814-8460-2438bad4f9f6" valueTypeId="430e26a4-aac3-454b-a0a0-8459de0ecaf7"/>
+    <managerType typeId="ffd9f1f0-3b92-471a-bbc5-c35f9bd45679" valueTypeId="e1d1d1d9-c9d8-4823-adc1-8f878755f12b"/>
+  </producedTypes>
+  <name>СервераПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервера партнеров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СервераПартнеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СервераПартнеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Партнеры</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="71db2e18-9a0a-4335-b77d-8de6a135b090">
+    <name>IP</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f48820b5-933e-448d-9389-c2a6afac8c0f">
+  <producedTypes>
+    <objectType typeId="c2186d08-6a7d-4b93-9a1b-f70dfc3782e8" valueTypeId="5176b6fc-9999-471c-a3f8-e36c972f3188"/>
+    <refType typeId="433f1bb4-6d06-4190-8253-8aac4efd12ef" valueTypeId="4f1f0268-faeb-4073-b2e2-11171393bf76"/>
+    <selectionType typeId="202dae97-0a7f-4a06-bb8a-c600c91b6fee" valueTypeId="e816a3e3-350f-4f64-ba66-e924f38fc528"/>
+    <listType typeId="b386e531-e6f0-43b0-bbe6-5e795dec00c3" valueTypeId="08c67b16-65ff-40f1-8ee8-7a4e13b5617e"/>
+    <managerType typeId="8a3cddf8-b676-4772-9bd7-4d49625ce9c2" valueTypeId="90470ab1-6333-4c41-a87e-84cc67ee2295"/>
+  </producedTypes>
+  <name>УстановкаЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦен.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e8e5c4c3-957b-4cc2-8ff8-c87bd3809087">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="685a8acb-a12d-4d9f-ad8c-a6a62a437722">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2b1e7efc-8b90-471d-b4c5-ef46df7c283f">
+    <producedTypes>
+      <objectType typeId="0cec92a1-4dae-4cee-9311-3e7aabe8d7e3" valueTypeId="2e07cfbc-42c1-4cf4-99b5-4d4026a47de4"/>
+      <rowType typeId="5f44cad7-6d6e-419e-97ff-d44daf99c9cd" valueTypeId="f8e33478-60a7-495a-9037-9ea6ff3c5e6b"/>
+    </producedTypes>
+    <name>ФиксацияЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксация цен</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="77ab2791-486e-478a-93c6-98a50e3bc58c">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f166e02-924e-4574-a89f-e0f47c30c355">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

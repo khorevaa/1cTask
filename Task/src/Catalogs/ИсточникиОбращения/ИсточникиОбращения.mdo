@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="157edf53-7347-4394-b419-9b8eafc0a025">
+  <producedTypes>
+    <objectType typeId="10b7774d-8c0e-4637-b9eb-d71654f5290d" valueTypeId="90f6c68d-c0e5-4da7-b4b7-b02d0bb96593"/>
+    <refType typeId="e6919f79-454a-44dd-9ef8-5a284b033ffd" valueTypeId="b8fda685-36b2-494d-80f8-700deb47af42"/>
+    <selectionType typeId="42823811-72d3-41a0-b48f-4e9c3e2a980b" valueTypeId="e0d5baa0-0825-4f33-8d7d-86a4a3a3b075"/>
+    <listType typeId="a93bcbb0-34ef-4d7b-ad24-e62b4789b4c1" valueTypeId="7a0a8760-b92b-45d0-98f3-9bc444ec1273"/>
+    <managerType typeId="115997e5-6e67-4b13-8141-77624c9203f7" valueTypeId="3ffc4264-2b2c-4a3f-bba2-794d5e4b426a"/>
+  </producedTypes>
+  <name>ИсточникиОбращения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники обращения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиОбращения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиОбращения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3a1a03ae-898f-458e-9398-f3f0b52cd5a3">
+      <name>WhatsApp</name>
+      <description>Whats app</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b853eef7-54cc-4923-a9cc-d3da2fb86fd3">
+      <name>Телефон</name>
+      <description>Телефон</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="7aa38659-b7b0-40d9-b693-6aa0593329e7">
+      <name>ЭлектроннаяПочта</name>
+      <description>Электронная почта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

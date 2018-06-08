@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a39bcca-0b22-429f-9615-bcba9f965867">
+  <producedTypes>
+    <objectType typeId="1116b7c7-7496-4bc6-98aa-e2ebb37987f8" valueTypeId="12f8805b-549b-4aa3-b4b6-1f7636fd9679"/>
+    <refType typeId="4a78b5b2-3274-453f-89cd-bd766fe6f0a5" valueTypeId="d373b24e-8a02-47fb-81c0-f266e2b4045a"/>
+    <selectionType typeId="c1a8b2f7-e28a-426a-a65a-99ca433a60f2" valueTypeId="7c9bc4a9-aef1-4678-9cf1-1d1452930067"/>
+    <listType typeId="b622b4d5-f828-42a7-b2ff-f92b23c1a71d" valueTypeId="9f6e3d54-3378-4bfa-94e7-d761f6cd8596"/>
+    <managerType typeId="8c44cb0d-5703-4bf4-8d64-d3e51230e8ef" valueTypeId="eaae1bd7-10da-4536-9b48-ab9c41ebf29b"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="090242d6-536e-4c2b-9723-201d0d30a424">
+      <name>Товар</name>
+      <description>Товар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="d0234f92-2302-42b6-8f06-d1409a7b9c89">
+      <name>Услуга</name>
+      <description>Услуга</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

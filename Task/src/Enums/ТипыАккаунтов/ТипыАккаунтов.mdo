@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0de8e3-bce7-4170-aafc-db44767676a2">
+  <producedTypes>
+    <refType typeId="cc3e2b94-dd82-4a80-9c30-5034f730979c" valueTypeId="4d61a6d0-a59a-4fe7-9a15-a337ff4b4b40"/>
+    <listType typeId="2e4d0dfa-c53e-4ead-a1f3-eaff273fee41" valueTypeId="41a73d30-9d6f-484f-9499-ccf03a6e0b54"/>
+    <managerType typeId="d983f19e-1531-40f3-864c-e0e8e5f9b434" valueTypeId="abd37436-14e8-4344-b6f9-b2be8b2d1e93"/>
+  </producedTypes>
+  <name>ТипыАккаунтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы аккаунтов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a1e7c9b-0bab-4edc-8170-a547a665f693">
+    <name>Внутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d9738472-da74-4537-a01e-e50c55940c38">
+    <name>Клиентский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентский</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

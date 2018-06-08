@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0009d77e-0b2e-4448-94ff-124e2ef96ad0">
+  <producedTypes>
+    <selectionType typeId="773da2eb-6258-43a4-8811-0ede23635e0d" valueTypeId="aa6a680d-c357-485a-a51e-43b97d1de8ef"/>
+    <listType typeId="cf0ae832-0c95-4e7e-af8c-83aec13776cd" valueTypeId="002117fe-31b9-43c1-8b39-7054e6695d40"/>
+    <managerType typeId="4914ade6-bfb2-4c73-a0c2-1d5e36bb6ec4" valueTypeId="8c35e0bd-cefc-45e6-820b-53e43762caa0"/>
+    <recordSetType typeId="965920b1-fdce-4fcc-b77f-0396659f5685" valueTypeId="9b8b5460-cd4b-40a4-9063-bea8f589eb63"/>
+    <recordKeyType typeId="cbc3b6c7-79c8-4f71-9179-22d1976d44d2" valueTypeId="026cef43-22d2-43b1-b714-6a51eac750eb"/>
+    <recordType typeId="aba25ddc-d779-4a64-b33b-d4157208d546" valueTypeId="6c242e14-bf8b-43cb-9c53-6144f8aee0f3"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="010565b4-b3e7-4d66-b8c3-0e1780e91e9b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ce3f5228-e7b2-4b3c-a29d-1425e10cae21">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Касса</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

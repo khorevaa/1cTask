@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="524bd063-80bb-414f-986c-f35187e1243d">
+  <producedTypes>
+    <refType typeId="53e25123-5064-45b2-8569-bf73ad1ac29f" valueTypeId="67b6fa76-0654-457f-bec0-760be8f36cdd"/>
+    <listType typeId="ee0a718e-1d75-4d40-969b-a371b6e29e4e" valueTypeId="f78d2543-587c-4087-a94b-f34bcf638f10"/>
+    <managerType typeId="cd620226-2753-4a47-a89e-405c1e552f17" valueTypeId="4d8b4509-5969-4e9a-a574-4ff8e9cf080e"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2a42973-92d0-4742-9df3-6e476f9f8029">
+    <name>НеОбработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработан</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d599e84f-d455-49fb-9260-945f558cc612">
+    <name>НазначенОтветственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначен ответственный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d857e916-b170-4ade-b880-c4058b2f811d">
+    <name>УточнениеИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение информации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="45879b46-8dec-4a88-ad04-d8fe55238031">
+    <name>НеУдалосьСвязаться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не удалось связаться</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="018b4f38-57c6-48d5-bea7-6736575bf6c0">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4490d40f-d1cc-410e-bafe-0b579c098591">
+    <name>РаботаОстановлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа остановлена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b3ce2e6f-bf01-4696-b3cb-40aa5c31bfd3">
+    <name>Отмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="28051145-d9d7-4950-a476-ae97d33ecb51">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

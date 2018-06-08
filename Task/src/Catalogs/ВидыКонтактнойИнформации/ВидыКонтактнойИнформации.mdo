@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78030186-7a7b-4608-b708-d240984256a2">
+  <producedTypes>
+    <objectType typeId="34d6fb3b-687d-4b9e-a180-dbd536aca16b" valueTypeId="7fa4a1f0-33c6-4094-9d93-e90631075e97"/>
+    <refType typeId="35622ba3-f72f-4957-a122-d4840f639b87" valueTypeId="93ed07cd-602c-4f50-8d2e-69429761af25"/>
+    <selectionType typeId="97e98119-766d-4366-b8ae-663a7c8cc627" valueTypeId="629b5445-535b-4774-bced-5db8639afc0f"/>
+    <listType typeId="b78c47d2-fea6-4503-90c3-e1dedaae74f0" valueTypeId="36b6b8d4-e9f5-4c1b-9b3d-f0bff1426b26"/>
+    <managerType typeId="70bfd9a6-0b88-4716-be30-830b70b5b8fc" valueTypeId="82797ce5-d063-4d13-98ba-599b9394ddf1"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа вида контактной информации</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>fc1d5c1f-385f-493f-a538-f80a12c7cb6f.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида контактной информации</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид контактной информации</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2960bc1c-0d8c-4212-b077-ce4757e44ce7">
+      <name>СправочникПартнеры</name>
+      <description>Справочник партнеры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="417007c9-4524-4818-bc3a-fac8f93558fa">
+        <name>EmailПартнера</name>
+        <description>Email партнера</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="445bcaf5-c3b5-44fe-9102-bee355cfa062">
+        <name>АдресПартнера</name>
+        <description>Адрес партнера</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b2d8a465-0347-4130-a8dc-5147b9541515">
+        <name>ТелефонПартнера</name>
+        <description>Телефон партнера</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="8d81f170-32d5-4576-ab0b-a4bb20385b87">
+      <name>СправочникПользователи</name>
+      <description>Справочник пользователи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e2d72cc2-2dc7-4f21-9e18-ea62c3357d17">
+        <name>EmailПользователя</name>
+        <description>Email пользователя</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="48f8532f-7d87-4573-8404-0cd664c99bcd">
+        <name>ТелефонПользователя</name>
+        <description>Телефон Пользователя</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7b5ae3d9-6b79-416d-8774-914d2dd7eec4">
+    <name>АдресТолькоРоссийский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес только российский</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Допустимы только российские адреса</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffb12a8d-493e-49a3-90a1-a1131c46e2c3">
+    <name>ВидПоляДругое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид поля другое</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешний вид поля другое на форме</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="929b924a-dde7-4fcf-a6f9-5b5cac1ced2c">
+    <name>ВключатьСтрануВПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать страну в представление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В представление будет включена страна адреса.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ebe6a3c-fe67-4be0-a444-467cc562a162">
+    <name>ЗапретитьРедактированиеПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить редактирование пользователем</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запретить редактирование пользователем вида пользователем</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39044a99-7221-4439-b10d-7b24291195b3">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид контактной информации используется</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="832cfb7f-4a61-4719-8b29-0b0c0df731af">
+    <name>МожноИзменятьСпособРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Можно изменять способ редактирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешено изменять способ редактирования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db91e325-57b5-4f69-b4c1-779c73d14236">
+    <name>ОбязательноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное заполнение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид контактной информации обязателен к заполнению</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dfef506d-1909-4af4-913a-d23bcd5d9951">
+    <name>ПроверятьКорректность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещать ввод некорректного адреса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверять корректность ввода контактной информации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d22ff743-aff4-43e6-974b-dc37c1d5c5e6">
+    <name>ПроверятьПоФИАС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять по ФИАС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверять корректность ввода адресов по классификатору ФИАС</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dd43610-bdf7-4322-8dd6-71b66f19a907">
+    <name>РазрешитьВводНесколькихЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить ввод нескольких значений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возможность добавления более одной записи этого вида</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73fe703b-d378-4be5-b8f7-ec031c81ce41">
+    <name>РедактированиеТолькоВДиалоге</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование только в диалоге</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Редактировать контактную информацию только в диалоге (ручной ввод информации невозможен)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2278346b-4605-4c6b-92f7-5b4c94791eff">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит доп упорядочивания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для упорядочивания (служебный)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0bdf1a8-d596-43be-8efe-5aef0079fd94">
+    <name>СкрыватьНеактуальныеАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрывать неактуальные адреса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Скрывать неактуальные адреса при выборе из классификатора</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6232a424-d16d-4417-9705-b695e2d7be22">
+    <name>ТелефонCДобавочнымНомером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон c добавочным номером</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон может содержать добавочный номер</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="671cd3f2-18bf-442e-b67e-8a4dc25c589f">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип контактной информации (адрес, телефон и т.д.)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>4cac66fd-686c-40aa-b891-dd9cf3177bd5.57b31a5d-9fdc-43d2-ae81-67157822c4b6</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62e814d5-1402-4975-bd0c-e551321d21a5">
+    <name>УдалитьМногострочноеПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Многострочное поле</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводит многострочное поле </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7df6a78-da40-4d05-ad60-ccffdb21bf52">
+    <name>УказыватьОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать ОКТМО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возможность ввода ОКТМО в адресе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a63f6174-95d9-48f9-9d96-32e60ff81dcd">
+    <name>ХранитьИсториюИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранить историю изменений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохранять историю изменения контактной информации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1eeff7e1-bb78-4d04-8841-a33aa91697e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ab82ada-25b0-4253-8296-039d175ba46d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cf0b9df-0e73-4ac5-bf42-351706724f6a">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="971cfa3e-453b-43ec-90eb-8614f42dec9e">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
